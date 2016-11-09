@@ -1,0 +1,113 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  margin: 0 0 100px;
+  font-family: 'EB Garamond', serif;
+}
+
+.nav{
+  box-sizing: content-box;
+  background-color: #00362D;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  }
+
+.nav li{
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  top: 0px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  font-weight:      bold;
+  color:            #fff;
+  }
+
+.message{
+  display: none;
+  position: absolute;
+  background-color: white;
+  text-align: justify;
+}
+
+a:hover + .message{
+  display: block !important;
+  z-index: 10;
+}
+
+#logo{
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  color: #6CA299;
+  font-size: 30px;
+}
+
+.classifier h1{
+  font-family: 'Lobster Two', cursive;
+  background-color: #57B8A8;
+  color: #246C60;
+  top: 15px ;
+  z-index: 999;
+  position: relative;
+  display: inline-block;
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.products {
+  background: linear-gradient(45deg, #1d9370 0%,#187f67 30%,#1cb5aa 100%);
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  margin: 0px 2% 0px 2%;
+  text-align: center;
+  width: 29%;
+}
+
+.product img {
+  width: 100%;
+}
+
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+  text-align: left;
+  padding-top: 15px;
+  background-color: gray;
+}
+
+.rights{
+
+  display: inline-block;
+}
+
+.footer img{
+  display: inline-block;
+  width: 35px;
+}
